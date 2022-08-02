@@ -1,0 +1,33 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>User Form</title>
+    </head>
+    <body>
+      <form method="post" action="form" >
+        <fieldset>
+          <legend>Add User</legend>
+          <div>
+            <label for="Username">username:</label>
+            <input type="text" name="Username" value="" />
+          </div>
+          <div>
+            <label for="email">Email:</label>
+            <input type="email" name="email" value="" />
+          </div>
+          <div>
+            <label for="password">Password:</label>
+            <input type="password" name="password" value="" />
+          </div>
+          <div>
+            <label>&nbsp;</label>
+            <input type="submit" value="Submit" class="submit" />
+          </div>
+        </fieldset>
+      </form>
+    </body>
+</html>
